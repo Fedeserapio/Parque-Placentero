@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyecto Hardware</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f0f0f;
+      color: #f0f0f0;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1a1a1a;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #333;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #00ffe0;
+    }
+
+    nav {
+      background-color: #141414;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #ccc;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00ffe0;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    section h2 {
+      margin-bottom: 10px;
+      color: #00ffe0;
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      color: #888;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      border-top: 2px solid #333;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Proyecto Hardware</h1>
+    <p>Con Mati,Fede</p>
+  </header>
+
+  <nav>
+    <a href="#componentes">Componentes</a>
+    <a href="#setups">Setups</a>
+    <a href="#nosotros">Nosotros</a>
+  </nav>
+
+  <main>
+    <section id="componentes">
+      <h2>Componentes</h2>
+      <p>Aquí vamos a hablar sobre CPU, GPU, RAM, motherboards y más.</p>
+    </section>
+
+    <section id="setups">
+      <h2>Setups</h2>
+      <p>Galería de setups armados por nosotros o por la comunidad.</p>
+    </section>
+
+    <section id="nosotros">
+      <h2>Nosotros</h2>
+      <p>Somos tres amigos que amamos el hardware y el diseño. Este proyecto es nuestro rincón digital.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Proyecto Hardware. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
